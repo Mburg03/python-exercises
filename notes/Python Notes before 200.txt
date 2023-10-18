@@ -1,0 +1,56 @@
+Class 196: General python stuff
+
+some methods do not return anything.
+
+
+a class is like a blueprint of something.
+for me to create new methods, I need to create classes.
+
+Class 197: fixing errors
+
+60% of time coding
+40% of time fixing errors
+
+-> Two type of errors:
+
+◦syntax errors
+◦exceptions
+
+first it checks the syntax, so you need to fix this first.
+then it checks the logic of the program
+
+try-except block does not catch syntax errors
+
+
+Class 198: Command Lines
+
+CMD commands
+
+◦pwd -> print working directory
+◦mkdir dir_name
+◦touch filename -> create a file
+
+◦rm filename or rm -r directory_name -> remove either a ◦directory or a file
+
+◦mv file30.txt data/file.30txt -> move a file into another directory, also helps to rename a file
+
+◦cp file3.py data/file3.py -> this one just copies it
+
+◦nano file3.py -> open a text editor in the terminal
+◦cat file3.py -> opens the file and shows you what's inside
+
+Class 200: How do I create a virtual environment??
+
+1. Go to path project and type
+
+python3 -m venv venv
+
+2. Activate virtual environment
+
+venv\Scripts\activate
+
+How do I deactivate it? 
+
+just type: deactivate
+
+

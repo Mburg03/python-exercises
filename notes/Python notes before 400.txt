@@ -1,0 +1,12 @@
+Python notes before 400
+
+1.NLP 
+
+where do you use it?
+exs: 
+-> filtering google reviews
+-> social media monitoring
+-> grammer checkers
+-> email spam filters
+-> google search
+-> chatbot

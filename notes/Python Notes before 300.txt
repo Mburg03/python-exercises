@@ -1,0 +1,29 @@
+Complex =! complicated
+
+"things we describe as complex have many parts, but all of them are necessary. Things we describe as complicated, on the other hand, have parts that are extra because they're unnecessary, or unwanted"
+
+1.how to start building a program? what's the secret?
+
+You should think how to go from the input data to the output data.
+
+
+-- Notes of some libraries that have helped me --
+
+fpdf -> used to create pdf files
+pandas -> read csv and excel files
+glob -> to get filepaths
+pathlib -> to access the filename inside a filepath
+streamlit -> create simple web pages
+pysimpleGUI -> to create simple GUI 
+os -> still don't truly know but I will figure it out
+
+
+
+
+
+
+
+
+
+https://www.linkedin.com/jobs/view/3721965162/
+https://trainee.applaudostudios.com/
