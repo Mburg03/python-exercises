@@ -1,22 +1,12 @@
-import requests
-import selectorlib
+import streamlit as st
+import plotly.express as px
+import pandas as pd
 
-URL = "https://programmer100.pythonanywhere.com/"
+st.header("Web scraping temperatures plot!")
+df = pd.read_csv("./temperatures.csv")
 
-def scrape(url):
-    response = requests.get(url)
-    source = response.text
-    
-    return source
+x_asis = df["date"].tolist()
+y_asis = df["temperature"].tolist()
 
-
-def extract_temperature(source):
-    extractor = selectorlib.Extractor.from_yaml_file("extract.yaml")
-    value = extractor.extract(source)["temperature"]
-    
-    return value
-
-if __name__ == "__main__":
-    scraped = scrape(URL)
-    temperature = extract_temperature(scraped)
-    print(temperature)
+plot = px.line(x=x_asis, y=y_asis, labels={"x":"dates", "y": "temperatures"})
+st.plotly_chart(plot)
