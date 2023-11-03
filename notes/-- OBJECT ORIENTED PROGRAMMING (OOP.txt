@@ -1,0 +1,61 @@
+--> OBJECT ORIENTED PROGRAMMING (OOP) <--
+
+This is a type of programming paradigm.It's a way to structure our code.
+Everything in Python is an object.
+And an object has methods and attributes, and it allows us to create our own data type.
+
+◦What is a class?
+
+A class is the blueprint where all the object will be created.
+Istantiate = action of create Instances.
+Instances are objects created based on our blueprint (class).
+
+1. Class Object Attribute: does not change
+2. Object Attribute: it constantly changes 
+
+
+__init__ is a special method because when you instance an object, it will run indemeadtly when you create it. A constructor function. The two __x__ means a "dunder method".
+
+self is an special argument. This is a variable that holds the instance that is being created.
+
+◦Instance variables
+
+coded inside of the methods (__init__) of the class. 
+
+◦Class variables and methods @classmethod
+coded outside of the methods of the class. These one are statics.
+
+
+◦Property @property
+
+You use this when you want to the returned value of a methods is an instance value but it needs some process.Yes, you could put it into the __init__ but it would be too much.
+
+You dont call this method as self.expression() just self.expression
+
+
+◦Static Method @staticmethod
+
+You don't use self argument. When you want to do utilyties
+
+◦Magic Methods or Dunder Methods __method__
+
+are most frequently used to define overloaded behaviours of predefined operators in Python.
+
+◦Abstract Classes @abstractmethod
+from abc import ABC
+class FatherOfAll(ABC)
+This helps to define the rules of the other classes that will be childs of this one. You can't instatiate this one.
+
+
+--> IMPORTANT CONCEPTS 4 PILARS OF OOP <--
+
+1.Encapsulation is the binding of data and functions to manipulate that data and we encapsulate this into a big object that users can interact with. If you only had the data then the class would only act as a dictionary, right? So it wouldn't be helpful.
+
+2.Abstraction: abstraction means hiding information or abstracting away information and giving access to only what's necessary. So whatever the user or the programmer or the machine is interested in, that's the only thing we give access to everything else.
+
+3.Inheritance allows new objects to take on the properties of existing objects.
+
+So you can inherit classes.
+
+4.Polymorphism = many forms. This idea of polymorphism refers to the way in which object classes can share the same method name but those method names can act differently based on what object calls them.
+

@@ -1,6 +1,6 @@
 Python notes before 400
 
-1.NLP 
+1.NLP  (Natural Language Processing)
 
 where do you use it?
 exs: 
@@ -10,3 +10,27 @@ exs:
 -> email spam filters
 -> google search
 -> chatbot
+
+
+--> Web Scrapping <--
+
+◦what is it?
+basically, get information from a web page and use it to our convenience. This information we store in a structured data like .txt, .csv or excel.
+
+Steps:
+
+1. Extract
+2. Store
+
+
+--> SQL Databases <-- 
+
+◦2 main advantages: Speed and concurrency
+
+With small amount of data, you use .csv .json and this type.
+With big amount of data you tend to use SQL databases.
+
+SQL is the common structure of a database.
+The SQL lite is kind of a csv file.
+
+
